@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- El <!DOCTYPE> es una instrucción para el browser para indicar que versión de HTML fue usada para  
+escribir este HTML, esta instrucción siempre debe ser la primer linea del HTML -->
+<html>
+<head>
+	<title>JavaScript Interno</title>
+	<!-- El tag "meta" se usa para brindar información adicional sobre el documento HTML -->
+	<meta charset="UTF-8">
+
+	<!-- 
+		El tag "script" se usa para definir un script del lado cliente, estos tags se pueden
+		incluir en cualquier lado de la pagina y en la mayoría de los casos son ejecutados en el 
+		orden que aparece en el documento, los tag "script" no son renderizados por el browser
+	-->
+	<script>
+		// Esto es un comentario single-line, este tipo de comentarios es el preferido en JavaScript
+		/*
+			Esto es un comentario multi-line, este tipo de comentarios no deben ser usado para
+			los bloques de códigos ya que el / también es usado para regex en JavaScript
+		*/
+		/* 
+			En este ejemplo agregamos contenido JavaScript en una pagina web, pero esto puede tener
+			algunas desventajas
+			- Difícil de mantener
+			- Difícil de reutilizar
+			- Útil para bloques pequeño de código
+		*/
+		alert("Hola Mundo Interno");
+	</script>
+</head>
+<body>
+	<p>CoderHouse</p>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Introducción</title>
+	<meta charset="UTF-8">
+	<script>
+		/* 
+			JavaScript es un lenguaje interpretado, esto quiere decir que existe un motor (Engine) que toma
+			el código JavaScript y lo va ejecutando, dependiendo el browser que usemos el motor puede variar
+		*/
+		// Tipos en JS (Posee tres tipos primitivos, ademas existen null y undefined)
+		var edad = 99; // Numérico
+		var mensaje = "Hola Mundo"; // String
+		var esFeriado = true; // Boolean
+		var generica = "String";
+
+		// Tipado Dinámico: Esta características nos deja definir variables sin un tipo especifico ya que el tipo pertenece al valor asignado a la variable
+		
+		// Débilmente tipado: Esta características nos permite volver a asignar un nuevo valor a la variable independientemente si es el mismo tipo o uno distinto
+		generica = 99;
+
+		alert(generica);
+
+		// Este es un objecto que nos provee el browser, con el cual podemos interactuar con nuestro documento HTML
+		document.write("Mensaje desde JavaScript");
+	</script>
+</head>
+<body>
+	<p>CoderHouse</p>
+</body>
+</html>
